@@ -8,8 +8,11 @@ body{
 div {
 	width:  100 px;
 	height: 300 px;
-	background-color: blue;
+	background-color: white;
 	/*max-width: 400px;*/
+}
+p {
+	text-align: center;
 }
 li {
 	margin: 15px 20px;
@@ -54,16 +57,41 @@ section{
 	text-align: center;
 }
 .about-me {
+	background-color: white;
+	border-top: 80px solid black;
 	margin-left: 80px;
 	width: 290px;
-	height: 300px;
+	height: 150px;
 }
 .others{
 	width: 290px;
-	height: 300px;
+	height: 230px;
 }
 .tweets {
 	margin: 0 10px 0 10px;
 	width: 500px;
 	height: 300px;
+	background-color: #E1E8ED;
+}
+.bigTweet {
+	margin: 1px 0 1px 0;
+	width: 500px;
+	height: 100px;
+	background-color: white;
+}
+.smallTweet {
+	margin: 1px 0 1px 0;
+	width: 500px;
+	height: 70px;
+	background-color: white;
+}
+.profile-pic-middle-bar {
+	width: 80px;
+	height: 100px;
+	background-color: blue;
+}
+.profile-pic-middle-bar-small {
+	width: 80px;
+	height: 70px;
+	background-color: blue;
 }
