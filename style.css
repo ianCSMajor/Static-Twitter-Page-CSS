@@ -16,6 +16,12 @@ p {
 }
 li {
 	margin: 15px 20px;
+
+}
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
 }
 h5 {
 	color: grey;
@@ -27,11 +33,15 @@ nav {
 	background-color: white;
 	display:  flex;
 	justify-content: space-around;
+	 position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 section{
 	display: flex;
 	flex-direction: row;
-	margin-top: 10px;
+	margin-top: 55px;
 	max-width: 1190px;
 }
 a{
@@ -40,14 +50,34 @@ a{
 }
 .nav-bar {
 	display:  flex;
-    justify-content: flex-end;
+    justify-content: start;
     list-style-type: none;
     text-transform: uppercase;
     color: ##555252;
+    margin-right: 270px;
 }
 .navText {
 	text-align: none;
 	color: ##555252;
+}
+a:hover {
+	color: #1DA1F2;
+}
+a:hover::after {
+  content: "";
+  display: block;
+  width: 60px;
+  border-bottom: 1px solid #1DA1F2;
+  margin: 0 auto;
+}
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
 }
 .logo {
 	height: 30px;
@@ -77,7 +107,7 @@ a{
 	background-color: white;
 	margin-left: 5px;
 	width: 290px;
-	height: 250px;
+	height: 260px;
 }
 .others{
 	width: 290px;
@@ -100,6 +130,7 @@ a{
 	height: 50px;
 	border-radius: 30px;
 	margin: auto;
+	margin-top: 10px;
 
 }
 .avatar-2 {
@@ -109,11 +140,26 @@ a{
 	margin: -40px 0 0 30px;
 	border:  2px solid white;
 }
+.avatar-3 {
+	width: 50px;
+	height: 50px;
+	border-radius: 30px;
+	margin: auto;
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
 .tweetBox {
 	margin-left: -170px;
 }
+.tweetBoxBig {
+	margin-left: 90px;
+	max-width: 400px;
+	text-align: left;
+
+}
 .largeTweetBox {
-	margin-left: 85px;
+	margin-left: 82px;
 	text-align: left;
 }
 .whoToFollow {
@@ -135,7 +181,13 @@ a{
 
 }
 .profileInfo2 {
-	margin-top: -10px;
+	margin-top: -60px;
+	word-spacing: 20px;
+	color: ##657786;
+
+}
+.profileInfo3 {
+	margin-top: -70px;
 	word-spacing: 20px;
 	color: ##657786;
 
@@ -145,6 +197,17 @@ a{
 	word-spacing: 20px;
 	color: ##657786;
 
+}
+.profileInfo4 {
+	text-align: left;
+	margin-top: -60px;
+	margin-left: 80px;
+	color: ##657786;
+
+}
+#upButton {
+	margin-top: -30px;
+	margin-left: 80px;
 }
 .twitterHandle {
 	margin: 2px 190px 0 0;
@@ -171,11 +234,23 @@ a{
 .profile-pic-middle-bar {
 	width: 80px;
 	height: 100px;
-	background-color: blue;
+	background-color: white;
 	max-width: 80px;
+	margin-top: -86px;
+	text-align: center;
+}.profile-pic-middle-bar-2 {
+	width: 80px;
+	height: 100px;
+	background-color: white
+	max-width: 80px;
+	margin-top: -105px;
+	text-align: center;
 }
 .profile-pic-middle-bar-small {
 	width: 80px;
 	height: 70px;
-	background-color: blue;
+	background-color: white;
+	max-width: 80px;
+	margin-top: -68px;
+	text-align: center;
 }
